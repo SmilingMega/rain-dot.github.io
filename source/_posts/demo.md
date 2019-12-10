@@ -38,7 +38,11 @@ class HelloWorld {
     }
 }
 ```
+
+
 # 数学公式展示
+
+- 行内：$f(x) = \int_a^bf(x)\mathrm{d}x$
 
 $$
 \begin{aligned}
