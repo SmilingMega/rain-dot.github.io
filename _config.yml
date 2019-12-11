@@ -45,11 +45,11 @@ relative_link: false
 future: true
 highlight:
   enable: false
-  # line_number: true
-  # auto_detect: false
-  # tab_replace: ''
-  # wrap: true
-  # hljs: false
+  line_number: true
+  auto_detect: true
+  tab_replace: ''
+  wrap: true
+  hljs: false
 
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
