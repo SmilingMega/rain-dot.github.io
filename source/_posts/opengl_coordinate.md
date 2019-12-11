@@ -24,7 +24,7 @@ categories: opengl
 
 <!-- /TOC -->
 
-- [3D Math Primer for Game Programmers (Coordinate Systems)](https://www.3dgep.com/3d-math-primer-for-game-programmers/)
+- 参考书籍：[3D Math Primer for Game Programmers (Coordinate Systems)](https://www.3dgep.com/3d-math-primer-for-game-programmers/)
 
 $\qquad$在本文中，我想为想要参与游戏编程的人提供简短的数学入门。这并不是对成为一名成功的游戏程序员必须知道的所有数学理论的详尽解释，但这是在您作为游戏程序员开始之前必须知道的最少量的信息。
 
@@ -40,11 +40,11 @@ $\qquad$使用右手，拇指（$+X$ 轴）和食指（$+Y$ 轴）仍指向同�
 
 $\qquad$要记住的另一个重要注意事项是<font color=red>**旋转方向**</font>。如果您将拇指指向旋转轴的正方向并将手指绕着假想轴弯曲，则手指将沿正向旋转方向卷曲。如果你用左手做这个，当你的拇指向下看时，你的手指会顺时针方向卷曲。但是，如果你用右手做这个，当你的拇指向下看时，你的手指会逆时针方向卷曲。
 
-![hand-rule][]
+![][hand-rule]
 
 下表显示了正旋转和负旋转的旋转方向，具体取决于坐标系的旋向性。
 
-![1][]
+![][1]
 
 # Coordinate Spaces
 
@@ -57,13 +57,13 @@ $\qquad$在对象空间（也称为局部空间或建模空间）中，对象的
 
 $\qquad$下图显示了对象空间中对象的示例。从图像中可以看出，对象位于它的相对原点。
 
-![2][]
+![][2]
 
 # World Space
 
 $\qquad$世界坐标空间是描述所有其他对象空间的全局坐标空间。下图显示了世界空间中描述的对象。注意对象的世界变换如何通过一些平移和旋转将它远离世界原点。
 
-![3][]
+![][3]
 
 # Inertial Space
 
@@ -73,7 +73,7 @@ $\qquad$将点从物体空间转换为惯性空间仅需要旋转，而将点从
 
 $\qquad$图像显示了惯性空间的一个例子。
 
-![4][]
+![][4]
 
 # Camera Space
 
