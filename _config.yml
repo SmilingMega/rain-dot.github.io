@@ -101,3 +101,10 @@ deploy:
   type: git
   repository: https://github.com/rain-dot/rain-dot.github.io
   branch: master
+
+# MathJax
+math:
+  enable: true
+  engine: 'mathjax'
+  mathjax:
+    src: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML
